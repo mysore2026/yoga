@@ -17,6 +17,21 @@
   <title>Mysore yoga</title>
   
   <link rel="manifest" href="manifest.json">
+  <link rel="preload" href="assets/fonts/MaterialIcons-Regular.otf" as="font" type="font/otf" crossorigin>
+
+<style>
+  /* 브라우저에게 Material Icons라는 폰트의 정체를 정확히 알려줌 */
+  @font-face {
+    font-family: 'MaterialIcons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(assets/fonts/MaterialIcons-Regular.otf) format('opentype');
+  }
+
+  .material-icons {
+    font-family: 'MaterialIcons';
+  }
+</style>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
