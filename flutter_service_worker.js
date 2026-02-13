@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "20ef8225346b0d1f23046520ae584227",
+const RESOURCES = {"flutter_bootstrap.js": "05b46ff9263ac7c3eb7d45334d3ca5e1",
 "version.json": "b00f4f1687a01d653e8a7163a9dd65e8",
 "index.html": "445ec89020fb30ff0a736304e76269ca",
 "/": "445ec89020fb30ff0a736304e76269ca",
@@ -15,14 +15,6 @@ const RESOURCES = {"flutter_bootstrap.js": "20ef8225346b0d1f23046520ae584227",
 "icons/Icon-maskable-512.png": "410c64971a53bf0aacedc94bf9a5e137",
 "icons/Icon-512.png": "410c64971a53bf0aacedc94bf9a5e137",
 "manifest.json": "fc81d92deb42614fe2dbb4954ec3163a",
-"assets/images/booking.png": "0319fe3236b56c6cfa519981b2565d9b",
-"assets/images/booking.svg": "5c052ac79065b1e413de904c253797a6",
-"assets/images/history.png": "4f9b1607b759da8fac817d567135a752",
-"assets/images/notice.svg": "3e085a1f9b23d46204c10ce6643acc30",
-"assets/images/calendar.png": "d13365aba90b008b73701c92ee1624d7",
-"assets/images/calendar.svg": "588d8bba4a74d73637a91f88529ed5a7",
-"assets/images/notice.png": "7724daf7abcc95e19e800dd14963f906",
-"assets/images/history.svg": "a0dfb10cd39406085b4367419d94307e",
 "assets/NOTICES": "b84c714257321bc50a1e29994571a3bc",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/AssetManifest.bin.json": "f36d87fd4e2f42600708d9174788a553",
