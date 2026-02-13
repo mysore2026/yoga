@@ -18,6 +18,19 @@
   </style>
 </head>
 <body>
+  <script>
+    window.flutterWebRenderer = "html"; // 1. 엑스박스 방지를 위해 엔진을 HTML 모드로 고정
+  </script>
+  
   <script src="flutter_bootstrap.js" async></script>
+
+  <script>
+    // 2. 엔진이 완전히 로드된 후 아이콘 폰트를 다시 한번 강제로 일깨우는 마법의 주문
+    window.addEventListener('load', function() {
+      if (document.fonts && document.fonts.load) {
+        document.fonts.load('10px MaterialIcons');
+      }
+    });
+  </script>
 </body>
 </html>
