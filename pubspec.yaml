@@ -60,10 +60,10 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
-  fonts:
-    - family: MaterialIcons
-      fonts:
-        - asset: fonts/MaterialIcons-Regular.otf
+  # fonts:
+  #   - family: MaterialIcons
+  #     fonts:
+  #       - asset: fonts/MaterialIcons-Regular.otf
 
   # To add assets to your application, add an assets section, like this:
   # assets:
