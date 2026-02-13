@@ -19,18 +19,6 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-  <script>
-  window.addEventListener('load', function(ev) {
-    _flutter.loader.loadEntrypoint({
-      onEntrypointLoaded: function(engineInitializer) {
-        engineInitializer.initializeEngine({
-          assetBase: "/yoga/" // 이 줄이 엑스박스를 해결하는 핵심입니다!
-        }).then(function(appRunner) {
-          appRunner.runApp();
-        });
-      }
-    });
-  });
-</script>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
